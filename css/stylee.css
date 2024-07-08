@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #F7F7F7;
+background: #F7F7F7;
 
 }
 
@@ -171,7 +171,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 955%;
 }
 
 form {
@@ -179,10 +179,10 @@ form {
     background: #FFF;
     align-items: center;
     justify-content: center;
-    max-width: 1210px;
-    width: 100%;
+    max-width: 1100px;
+    width: 95%;
     height: 164px;
-    left: 60px;
+    left: 100px;
     top: 480px;
     border-radius: 5px;
     padding: 10px;
@@ -262,7 +262,7 @@ option {
     flex-direction: column;
     position: absolute;
     top: 37px;
-    left: 974px;
+    left: 870px;
 
 }
 
@@ -683,4 +683,95 @@ color: #fff;
     width: 240px;
     height: 200px;
     object-fit: cover;
+}
+
+/* Footer */
+
+footer{
+    background: #333333;
+    
+}
+.footercontainer{
+    background: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+
+}
+
+.footercard1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+}
+.footercard1 a{
+margin-top: 10px;
+text-decoration: none;
+color: #fff;
+font: 1em 'Montserrat';
+font-weight: 500;
+}
+.footercard2{
+    margin-left: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.footercard2 p {
+text-align: left;
+font-family: 1em  'Montserrat';
+font-weight: 500;
+color: #fff;
+}
+.footercard2 p i {
+font-size: 1em;
+color: #fff;
+margin-right:  5px;
+}
+.socials{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    
+}
+.socialicons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 150px;
+
+}
+.socialicons i{
+    font-size: 1em;
+    color: #fff;
+    margin-right: 20px;
+}
+.footerhr{
+margin: 0 50px;
+width: 1211px;
+border: 1px solid rgba(255, 255, 255, 0.3)
+}
+.footerbottom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footerbotlogo {
+   padding: 20px;
+}
+.copyrght{
+padding: 20px;
+color: #fff;
+font: 1em 'Montserrat';
+font-weight: 500;
 }
