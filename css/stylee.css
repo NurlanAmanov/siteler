@@ -10,7 +10,10 @@ background: #F7F7F7;
 
 }
 
-
+.navs{
+    background: rgba(255, 255, 255, 1);
+   
+}
 
 #a1 {
 
@@ -23,19 +26,39 @@ background: #F7F7F7;
 
 
 }
-
-header h1 {
+.headtops{
+    width: 100%;
+    background: #573391;
     display: flex;
-    padding: 5px;
     align-items: center;
     justify-content: center;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.headtops h1 {
+    margin-top: 10px;
     text-align: center;
     font: 1.2em 'Montserrat';
     font-style: normal;
     color: #fff;
-    background: #573391;
-}
 
+}
+.buttons{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.buttons button{
+    border: none;
+    border-radius: 50%;
+
+    background: #fff;
+    width: 26px;
+    height: 26px;
+}
 .container2 {
     padding: 10px 0;
     margin: auto;
@@ -84,6 +107,7 @@ header {
     text-align: initial;
     height: min-content;
     margin: auto;
+    
 
 }
 
@@ -116,7 +140,7 @@ header {
 }
 
 .silder {
-
+    z-index: -3;
     background: url("../img/silder.png") center/cover;
     position: relative;
     height: 60vh;
@@ -171,35 +195,33 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 955%;
+    width: 100%;
 }
 
 form {
-    position: absolute;
+  
     background: #FFF;
     align-items: center;
     justify-content: center;
-    max-width: 1100px;
     width: 95%;
     height: 164px;
-    left: 100px;
-    top: 480px;
     border-radius: 5px;
     padding: 10px;
 
 
 }
-
+.axtaris{
+}
 .sections {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 20px;
     font: 14px 'Montserrat';
     color: #585858;
     outline: none;
     width: 100%;
+ 
 }
 
 .formtext {
@@ -260,16 +282,15 @@ option {
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: column;
-    position: absolute;
-    top: 37px;
-    left: 870px;
+  
+   
 
 }
 
 .buttons #btn1 {
     font: 15px 'Montserrat';
     color: #fff;
-    width: 100%;
+    width: 249px;
     height: 40px;
     background: #635EBE;
     border-radius: 3px;
@@ -281,7 +302,7 @@ option {
 
 .buttons #btn2 {
     margin: 5px;
-    width: 100%;
+    width: 249px;
     height: 40px;
     background: #4FD3C4;
     border-radius: 3px;
